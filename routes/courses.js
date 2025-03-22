@@ -1,18 +1,18 @@
 const express = require('express');
 const router = express.Router();
-const coursesController = require('../controllers/coursesController'); // ✅ Correct
-const upload = require('../middleware/multerConfig');
+const coursesController = require('../controllers/coursesController');
+const { upload } = require('../cloudinary');
 
 // Get all courses
 router.get('/', coursesController.getAllCourses);
 
-// Add a new course with image upload
+// Add new course with image upload
 router.post('/', upload.single('image'), coursesController.addCourse);
 
-// Update an existing course
-router.put('/:id', upload.single('image'), coursesController.updateCourse); 
+// Update existing course, optionally with new image upload
+router.put('/:id', upload.single('image'), coursesController.updateCourse);
 
-// Delete a course
+// Delete course and its image
 router.delete('/:id', coursesController.deleteCourse);
 
 module.exports = router;

@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": 1,
+    "imageUrl": "https://res.cloudinary.com/dgg5eosoq/image/upload/v1742667065/galleryImg/1742667045169-MSCIT.jpg",
+    "publicId": "galleryImg/1742667045169-MSCIT",
+    "category": "gallery"
+  },
+  {
+    "id": 2,
+    "imageUrl": "https://res.cloudinary.com/dgg5eosoq/image/upload/v1742667111/galleryImg/1742667088760-747319.png",
+    "publicId": "galleryImg/1742667088760-747319",
+    "category": "carousel"
+  },
+  {
+    "id": 3,
+    "imageUrl": "https://res.cloudinary.com/dgg5eosoq/image/upload/v1742667194/galleryImg/1742667125583-arrangement-green-leaves-with-copy-space.jpg",
+    "publicId": "galleryImg/1742667125583-arrangement-green-leaves-with-copy-space",
+    "category": "carousel"
+  },
+  {
+    "id": 4,
+    "imageUrl": "https://res.cloudinary.com/dgg5eosoq/image/upload/v1742667221/galleryImg/1742667217350-wallpaperflare.jpg",
+    "publicId": "galleryImg/1742667217350-wallpaperflare",
+    "category": "carousel"
+  }
+]

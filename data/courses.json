@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "id": 1,
+    "title": "MS-CIT",
+    "description": "Most Popular Courses",
+    "duration": "4 Months",
+    "price": 4500,
+    "isPopular": false,
+    "imageUrl": "https://res.cloudinary.com/dgg5eosoq/image/upload/v1742667891/courseImg/1742667877077-MSCIT.jpg",
+    "publicId": "courseImg/1742667877077-MSCIT"
+  }
+]
